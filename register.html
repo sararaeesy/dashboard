@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0" />
+    <link rel="stylesheet" href="Styles/register.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Register User</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- <h1>Login!</h1> -->
+      <!-- <p id="register-message"></p> -->
+      <div class="register">
+        <div class="row">
+          <div class="col">
+            <h2>Sign up</h2>
+            <p>Create your account, It,s Free.</p>
+            <p>If you have an account <a href="login.html">Login here</a></p>
+            <p class="message"></p>
+          </div>
+        </div>
+
+        <form action="" id="form">
+          <div class="formRow">
+            <div class="col-6">
+              <!-- <label for="email">Email:</label> -->
+              <input
+                type="email"
+                placeholder="Email"
+                name="email"
+                id="user-email"
+              />
+            </div>
+            <div class="col-6">
+              <!-- <label for="username">Username:</label> -->
+              <input
+                type="text"
+                placeholder="Username"
+                name="username"
+                id="user-name"
+              />
+            </div>
+          </div>
+          <div class="formRow">
+            <div class="col-6">
+              <!-- <label for="password">Password:</label> -->
+              <input
+                type="password"
+                placeholder="Password"
+                name="password"
+                id="user-password"
+              />
+            </div>
+            <div class="col-6">
+              <!-- <label for="confirmPassword">Confirm password:</label> -->
+
+              <input
+                type="password"
+                placeholder="Confirm Passowrd"
+                id="confirmPassword"
+              />
+            </div>
+          </div>
+          <div class="row"><button type="button" id="btn">Sign Up</button></div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="js/register.js"></script>
+</html>

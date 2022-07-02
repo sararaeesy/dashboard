@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0" />
+    <link rel="stylesheet" href="Styles/login.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Login User</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- <h1>Login!</h1> -->
+      <p id="login-message"></p>
+      <div class="login">
+        <div class="row">
+          <div class="col">
+            <h2>login !</h2>
+            <p>
+              If you have an account, log in, otherwise
+              <a href="register.html">Sign up here</a>
+            </p>
+            <p class="message" style="color: #999"></p>
+          </div>
+        </div>
+        <form action="" id="form-container">
+          <div class="formRow">
+            <div class="col-6">
+              <!-- <label for="email">Email:</label> -->
+              <input
+                type="text"
+                placeholder="Email"
+                name="email"
+                id="user-email"
+              />
+            </div>
+            <div class="col-6">
+              <!-- <label for="password">Password:</label> -->
+              <input
+                type="password"
+                placeholder="Password"
+                name="password"
+                id="user-password"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <button type="button" id="login-button">Login</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="js/login.js"></script>
+</html>
